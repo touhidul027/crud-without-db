@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0" >
+<tlib-version>1.2</tlib-version>
+
+<uri>MyFunctions</uri>
+
+<function> 
+	<name>getItems</name>
+	<function-class>test.ListDAO</function-class>
+	<function-signature>java.util.ArrayList&lt;String &gt; getItems();</function-signature>
+</function>
+
+<function> 
+	<name>getUser</name>
+	<function-class>test.User</function-class>
+	<function-signature>test.User getUser(String);</function-signature>
+</function>
+
+</taglib>
